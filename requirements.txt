@@ -1,0 +1,22 @@
+# Clipper - Python dependencies
+#
+# yt-dlp is INTENTIONALLY not pinned to one version: YouTube changes often and
+# old versions stop working ("nsig extraction failed",
+# "Precondition check failed"). setup.bat (and the "Check/update yt-dlp" button
+# in the app) always installs the latest version with:
+#     pip install -U --pre "yt-dlp[default]"
+# [default] also brings yt-dlp-ejs (solves YouTube's JavaScript protection with Deno).
+yt-dlp[default]
+
+# All other dependencies are pinned (they are used only for tests).
+pytest==9.1.1
+pluggy==1.7.0
+iniconfig==2.3.1
+packaging==26.3
+pygments==2.21.0
+colorama==0.4.6
+
+# The GUI uses tkinter, which comes with Python, so nothing extra is needed.
+# External programs (not installed through pip):
+#     ffmpeg:  winget install Gyan.FFmpeg
+#     Deno:    winget install DenoLand.Deno

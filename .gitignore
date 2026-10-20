@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+clips/
+settings.json
+# cookies.txt contains your Google session - never share it
+cookies*.txt
