@@ -142,7 +142,7 @@ Click **"Save settings"** after making changes.
 
 Cookies help when YouTube asks you to sign in, to confirm "you're not a bot", or returns error 429.
 
-> ⚠️ **WARNING:** `cookies.txt` contains your Google account session. Anyone who gets this
+> **WARNING:** `cookies.txt` contains your Google account session. Anyone who gets this
 > file can get into your account. **Never share it**, never send it to anyone and never
 > upload it to the internet. If you share it by accident, immediately sign out of your
 > Google account on all devices (myaccount.google.com → Security).
